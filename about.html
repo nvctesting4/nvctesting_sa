@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>About</title>
+  <title>About Us</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <style>
@@ -10,33 +10,51 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f5f5f5;
+      color: #333;
     }
 
-    /* Navigation bar */
+    /* Navigation Bar */
     nav {
       background: #333;
-      padding: 0.5rem 1rem;
+      padding: 0.7rem 1.5rem;
     }
 
     nav a {
-      color: white;
-      margin-right: 1rem;
+      color: #fff;
+      margin-right: 1.5rem;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1rem;
     }
 
     nav a:hover {
       text-decoration: underline;
     }
 
-    /* Page container */
+    /* Page Wrapper */
     .container {
       max-width: 900px;
       margin: 2rem auto;
       background: #fff;
       padding: 2rem;
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .contact-box {
+      background: #eef4ff;
+      padding: 1rem 1.5rem;
+      border-left: 4px solid #3366ff;
+      border-radius: 6px;
+      margin-top: 1rem;
     }
   </style>
 </head>
@@ -49,21 +67,48 @@
     <a href="about.html">About</a>
   </nav>
 
-  <!-- About Content -->
+  <!-- About Page Content -->
   <div class="container">
-    <h1>About This Website</h1>
-    <p>
-      This website was created using simple HTML and hosted on GitHub Pages.
-      You can add more sections, pages, or custom styles as you continue learning!
-    </p>
+    <h1>About Our Website</h1>
 
-    <h2>What You Can Add Next</h2>
-    <ul>
-      <li>Contact Page</li>
-      <li>Your Projects</li>
-      <li>Images or Photo Gallery</li>
-      <li>Buttons and Better Styling</li>
-    </ul>
+    <div class="section">
+      <p>
+        Welcome to our website! This project started as a simple GitHub Pages
+        experiment and has grown into a space where we share ideas, tools, and
+        simple web creations. Our goal is to build clean, minimal, and accessible
+        pages that anyone can learn from or be inspired by.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Our Mission</h2>
+      <p>
+        We focus on creating easy-to-understand web content. Whether you are a
+        beginner learning HTML or someone exploring simple web projects, this site
+        is made to help you get started quickly without feeling overwhelmed.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Who We Are</h2>
+      <p>
+        This website is managed by a small creator passionate about technology,
+        web design, and helping others build their first projects online.
+      </p>
+      <p>
+        Every page is designed to be as simple as possible while still looking
+        clean and modern.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <div class="contact-box">
+        <p><strong>Email:</strong> your-email@example.com</p>
+        <p><strong>GitHub:</strong> https://github.com/yourusername</p>
+      </div>
+    </div>
+
   </div>
 
 </body>
